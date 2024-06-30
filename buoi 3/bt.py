@@ -77,9 +77,8 @@ else:
 #câu 8
 for i in range(21):
     if i % 3 == 0:
-        print(i)
+        print(i)'''
 #câu 9 
 n = int(input("Nhập một số nguyên: "))
-num_digits = int(log10(abs(n))) + 1
+num_digits = len(str(n))
 print(f"Số chữ số trong {n} là {num_digits}.")
-'''
